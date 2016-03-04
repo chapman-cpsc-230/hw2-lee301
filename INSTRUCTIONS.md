@@ -11,8 +11,9 @@ Write a program that does the following
 * Queries the user for a floating point number, which we will call `b` (should not be equal to `1.0`),
  and a natural number, which we will call `n`.
 * Compute the sum `1 + b + b^2 + ... + b^n`.
+  ---use while loop
 * Print the result of this computation
-* Print the `b^(n+1)/(b-1)`.
+* Print the value `(b^(n+1)-1)/(b-1)`.
 
 Submit this program as `sum_powers.py`
 
